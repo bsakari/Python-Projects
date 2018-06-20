@@ -1,0 +1,13 @@
+print("Enter Student One Name")
+stdt1 = str(input())
+print("Enter Student Two Name")
+stdt2 = str(input())
+print("Enter Student Three Name")
+stdt3 = str(input())
+print("Enter Student Four Name")
+stdt4 = str(input())
+print("Enter Student Five Name")
+stdt5 = str(input())
+print("The Names of the Students are \n")
+print(stdt1+"\n"+stdt2+"\n"+stdt3+"\n"+
+      stdt4+"\n"+stdt5)

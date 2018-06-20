@@ -1,0 +1,8 @@
+names = ("king","omolo","elija","mike","nelson")
+marks = (50,60,70,80)
+print(names)
+print(names[0])
+print(names[1:4])
+print(names[2:])
+print(marks * 2)
+print(names + marks)

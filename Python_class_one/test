@@ -1,0 +1,10 @@
+a. Calculate the Area of five circles and
+   their respective perimeters
+   Store the results in;
+     i. Tuples
+     ii. Lists
+
+b. In the dictionary, store the area of
+   the respective circles as Keys and
+   perimeters as Values and print all
+   the outputs.

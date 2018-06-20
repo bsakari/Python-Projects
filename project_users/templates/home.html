@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <table class="table">
+       <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAMES</th>
+                <th>EMAIL</th>
+                <th>AGE</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for person in users %}
+                <tr>
+                    <td>{{ person.id }}</td>
+                    <td>{{ person.names }}</td>
+                    <td>{{ person.email }}</td>
+                    <td>{{ person.age }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
